@@ -40,6 +40,9 @@ paired = { version = "0.21.0", optional = true }
 rust-gpu-tools = { version = "0.2.0", optional = true }
 ff-cl-gen = { version = "0.2.0", optional = true }
 fs2 = { version = "0.4.3", optional = true }
+ahash = "0.3.4"
+const-random = "= 0.1.8"
+const-random-macro = "= 0.1.8"
 
 [dev-dependencies]
 hex-literal = "0.3"

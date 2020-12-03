@@ -32,6 +32,9 @@ lazy_static::lazy_static! {
 
             ("GeForce GTX 1080 Ti".to_string(), 3584),
             ("GeForce GTX 1080".to_string(), 2560),
+            ("GeForce GTX 980".to_string(), 2048),
+            ("GeForce GTX 1070".to_string(), 1920),
+
             ("GeForce GTX 2060".to_string(), 1920),
             ("GeForce GTX 1660 Ti".to_string(), 1536),
             ("GeForce GTX 1060".to_string(), 1280),
