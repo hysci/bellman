@@ -26,6 +26,7 @@ rand = "0.7"
 rayon = "1.3.0"
 memmap = "0.7.0"
 thiserror = "1.0.10"
+
 rustc-hash = "1.1.0"
 num_cpus = "1"
 crossbeam-channel = "0.5.0"
@@ -40,6 +41,11 @@ paired = { version = "0.21.0", optional = true }
 rust-gpu-tools = { version = "0.2.0", optional = true }
 ff-cl-gen = { version = "0.2.0", optional = true }
 fs2 = { version = "0.4.3", optional = true }
+
+ahash = "0.3.4"
+#crossbeam-channel = { version = "0.4.4", optional = true }
+const-random = "= 0.1.8"
+const-random-macro = "= 0.1.8"
 
 [dev-dependencies]
 hex-literal = "0.3"
