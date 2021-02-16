@@ -4,7 +4,7 @@ use super::sources;
 use super::structs;
 use super::utils;
 use super::GPU_NVIDIA_DEVICES;
-use crate::bls::Engine;
+//use crate::bls::Engine;
 use rust_gpu_tools::*;
 use crate::multicore::Worker;
 use crate::multiexp::{multiexp as cpu_multiexp, FullDensity};
